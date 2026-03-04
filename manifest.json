@@ -1,0 +1,13 @@
+{
+    "manifest_version":3,
+    "name":"Copy - Paste Restriction",
+    "version":"2.0",
+    "description":"Disabled guys..!!",
+    "permissions":["activeTab","scripting"],
+    "content_scripts":[
+        {
+            "matches":["https://user.faceprep.online/learn/clients/*"],
+            "js":["contents.js"]
+        }
+    ]
+}
