@@ -6,8 +6,9 @@
     "permissions":["activeTab","scripting"],
     "content_scripts":[
         {
-            "matches":["https://user.faceprep.online/learn/clients/*"],
+            "matches":["https://youwebsite.com/*"],
             "js":["contents.js"]
         }
     ]
+
 }
